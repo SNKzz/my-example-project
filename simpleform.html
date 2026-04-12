@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <form>
+       <h1>Order form</h1> 
+       <h3>What would you like to buy></h3>
+       <select>
+        <option name="weapon" value="product">M4A1</option>
+        <option name="weapon" value="product">Flashbang</option>
+        <option name="weapon" value="product">Gernade</option>
+        <option name="weapon" value="product">Knife</option>
+       </select>
+
+       <h3>How many would you like to order</h3>
+       <label><input name="quantity" value="1" type="radio"> 1 - $10</label><br>
+        <label> <input name="quantity" value="2" type="radio"> 2 - $20</label><br>
+        <label><input name="quantity" value="1" type="radio"> 3 - $250</label>
+        
+        <h3>Name *</h3>
+        <input name="firstname" placeholder="FirstName">
+        <input name="lastname" placeholder="LastName">
+
+        <h3>Email</h3>
+        <input name="email" size="45">
+        
+        <h3>Phone Number</h3>
+        <input name="firstNum" size="6">
+        <span> - </span>
+        <input name="midNum" size="6">
+        <span> - </span>
+        <input name="thirdNum" size="6">
+
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
