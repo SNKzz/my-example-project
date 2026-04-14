@@ -1,0 +1,26 @@
+body{
+    background-color: #fcf7fc;
+    /* Màu nền xám nhạt */
+    font-family: Arial, sans-serif;
+}
+
+form {  
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* Màu nền trắng */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset{
+    border: 1px solid #6b6969;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
