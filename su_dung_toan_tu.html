@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let width = Number(prompt("Nhập vào chiều rộng: "));
+      let height = Number(prompt("Nhập vào chiều cao: "));
+
+      if (
+        isNaN(width) == true ||
+        isNaN(height) == true ||
+        width === 0 ||
+        height === 0 ||
+        width < 0 ||
+        width < 0
+      ) {
+        document.write("Vui lòng nhập vào số lớn hơn 0!");
+      } else {
+        let s = width * height;
+        document.write("Chiều rộng: " + width);
+        document.write("<br>");
+        document.write("Chiều cao: " + width);
+        document.write("<br>");
+        document.write("Diện tích: " + s);
+      }
+    </script>
+  </body>
+</html>
