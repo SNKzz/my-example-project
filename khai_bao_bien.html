@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*-----------Bài 1: nhập vào các loại dữ liệu và in ra màn hình-----------*/
+      let i = 10;
+      let f = 20.5;
+      let s = "Hà Nội";
+      let b = true;
+
+      document.write("Giá trị của i là: " + i + "<br>");
+      document.write("Giá trị của f là: " + f + "<br>");
+      document.write("Giá trị của s là: " + s + "<br>");
+      document.write("Giá trị của b là: " + b + "<br>");
+
+      /*-----------Bài 2: khai báo chiều rộng và chiều cao, in ra diện tích hình chữ nhật-----------*/
+      let width = 20;
+      let height = 10;
+      let area = width * height;
+
+      document.write("<br>");
+      document.write("<br>");
+      document.write("<br>");
+
+      document.write("Chiều rộng của hình chữ nhật là: " + width + "<br>");
+      document.write("Chiều cao của hình chữ nhật là: " + height + "<br>");
+      document.write("Diện tích hình chữ nhật là: " + area);
+
+      /*-----------Bài 3: Kiểm tra bội số-----------*/
+      document.write("<br>");
+      document.write("<br>");
+      document.write("<br>");
+
+      let x = Number(prompt("Nhập vào một số x: "));
+      let y = Number(prompt("Nhập vào một số y: "));
+
+      document.write("<br>");
+      document.write("<br>");
+      document.write("<br>");
+
+      if (isNaN(x) === true || isNaN(y) === true) {
+        document.write("Vui lòng nhập vào số!");
+      } else if (x % y === 0) {
+        document.write(x + " là bội số của " + y);
+      } else {
+        document.write(x + " không phải là bội số của " + y);
+      }
+    </script>
+  </body>
+</html>
