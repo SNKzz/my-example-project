@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dien tich hinh tron</title>
+  </head>
+  <body>
+    <script>
+      let banKinh = Number(prompt("Nhap vao ban kinh hinh tron: "));
+
+      if (isNaN(banKinh) == true || banKinh < 0) {
+        document.write("Vui long nhap ban kinh la so lon hon 0 !!");
+      } else {
+        area = Math.pow(banKinh, 2) * 3.14;
+        document.write("Ban kinh: " + banKinh);
+        document.write("<br>");
+        document.write("Dien tich: " + area);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let degreeC = Number(prompt("Nhap vao nhiet do C: "));
+
+      if (isNaN(degreeC) == true) {
+        document.write("Vui long nhap nhiet do o dang so !!");
+      } else {
+        degreeF = (degreeC / 5) * 9 + 32;
+        document.write("Nhiet do C: " + degreeC);
+        document.write("<br>");
+        document.write("Nhiet do F: " + degreeF);
+      }
+    </script>
+  </body>
+</html>

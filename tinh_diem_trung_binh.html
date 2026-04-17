@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let physical = Number(prompt("Nhap vao diem Vat ly:"));
+      let chem = Number(prompt("Nhap vao diem Hoa hoc:"));
+      let bio = Number(prompt("Nhap vao diem Sinh hoc:"));
+
+      if (
+        isNaN(physical) == true ||
+        isNaN(chem) == true ||
+        isNaN(bio) == true ||
+        physical < 0 ||
+        chem < 0 ||
+        bio < 0 ||
+        physical > 10 ||
+        chem > 10 ||
+        bio > 10
+      ) {
+        document.write("Vui long nhap diem la so trong khoang [0-10] !!!");
+      } else {
+        let average = (physical + chem + bio) / 3;
+        document.write("Score physical: " + physical);
+        document.write("<br>");
+        document.write("Score Chemistry: " + chem);
+        document.write("<br>");
+        document.write("Score Biograpghy: " + bio);
+        document.write("<br>");
+        document.write("Score a verage: " + average);
+      }
+    </script>
+  </body>
+</html>
